@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace pelota
 {
@@ -131,7 +127,10 @@ namespace pelota
                 angulo = r.Next(0, 91);
             }
         }
+
         public string GetAngulo()
-        { return angulo.ToString(); }
+        {
+            return angulo.ToString();
+        }
     }
 }
